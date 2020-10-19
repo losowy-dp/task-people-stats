@@ -11,4 +11,7 @@ class PeopleStats {
             throw new IllegalStateException(e);
         }
     }
+    public long count() {
+        return people.size();
+    }
 }
